@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+h1 {
+  font-size: 4.9em;
+  color: slateblue;
+}
+
+.btn {
+  padding: 10px;
+  margin: 5px;
+  min-width: 100px;
+  background-color: purple;
+  color: white;
+  border-radius: 15px;
+  border-color: violet;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: lightpink;
+  color: darkmagenta;
+  cursor: pointer;
+}
